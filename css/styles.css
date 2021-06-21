@@ -25,4 +25,7 @@ body {
 a {
     text-decoration: none !important;
 }
-
+#buynowlink {
+    font-style: italic;
+    font-weight: bold;
+}
