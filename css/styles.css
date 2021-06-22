@@ -11,7 +11,7 @@ a:hover{
     color: blue;
 }
 body {
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-image: url("/assets/bg-main-blurred.jpg");
     background-size: 100%;
     color:lightgray;
