@@ -11,31 +11,31 @@ a:hover{
     color: blue;
 }
 body {
+    background-color: black;
     background-repeat: no-repeat;
     background-image: url("/assets/bg-main-blurred.jpg");
-    background-size: 100%;
+    background-position: center;
     color:lightgray;
 }
 .text-block{
     background: black;
     border-radius: 24px;
-    margin: 1in;
+    margin: 4%;
     padding:24px;
-    /* back: 0.5; */
 }
+
 #main-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:75%;
+    width:80%;
+    margin-top:15%;
     border-radius: 24px;
 }
 
 #button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
+    margin-bottom: 15%;
 }
 #buynowlink {
     font-style: italic;
