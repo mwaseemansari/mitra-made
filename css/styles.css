@@ -1,46 +1,90 @@
+.text-block-home {
+    background: black;
+    padding: 19px;
+    height: 350px;
+    border: 1px solid whitesmoke;
+    overflow: auto;
+}
+
+@media (max-width:767px) {
+    #logo{
+        display: none;
+    }
+}
+
+.text-block {
+    background: black;
+    border-radius: 24px;
+    padding: 24px;
+    margin-top: 52px;
+    border: 1px solid whitesmoke;
+}
+
 h1 {
     text-align: center;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:cover; 
+    /* very important, otherwise the aspect ratio etc will be a problem */
+}
+@font-face {
+    font-family: Odudo;
+    src: url(/fonts/Odudo.otf);
+  }
 a {
     text-decoration: none !important;
     color: #25abe1
 }
-a:hover{
+
+a:hover {
     color: #a0d7ec;
 }
+
 body {
     background-color: black;
-    background-repeat: no-repeat;
-    background-image: url("/assets/bg-main-blurred.jpg");
-    background-position: center;
-    color:lightgray;
-}
-.text-block{
-    background: black;
-    border-radius: 24px;
-    margin: 5%;
-    padding:24px;
+    color: white;
+    font-family:Odudo;
 }
 
-#main-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:80%;
-    margin-top:15%;
-    border-radius: 24px;
-}
-
-#button {
-    width: 100%;
-    margin-bottom: 15%;
-}
 #buynowlink {
     font-style: italic;
     font-weight: bold;
 }
-#footer-text{
-    width: 100%;
-    text-align: center;
+
+
+#background {
+    background-color: white;
+    background-image: url(/assets/Background.1400x1400.jpg);
+    background-size: cover;
 }
+
+/* Social Media buttons from w3 schools*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
