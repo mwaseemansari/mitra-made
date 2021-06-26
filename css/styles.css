@@ -1,15 +1,30 @@
 .text-block-home {
     background: black;
-    padding: 19px;
-    height: 350px;
+    padding: 12px;
     border: 1px solid whitesmoke;
-    overflow: auto;
-    margin-top: 12px;
+    height: 100%;
+    margin: 12px;
 }
 
-@media (max-width:767px) {
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.display-flex>[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:991px) {
     #logo {
         display: none;
+    }
+    #center-image{
+        width: 100%;
+    }
+    #img-infographic{
+        width: 100%;
     }
 }
 
