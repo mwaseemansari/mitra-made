@@ -51,7 +51,7 @@ img {
 
 @font-face {
     font-family: Odudo;
-    src: url(/fonts/Odudo.otf);
+    src: url(./fonts/Odudo.otf);
 }
 
 a {
@@ -76,7 +76,7 @@ body {
 
 #background {
     background-color: white;
-    background-image: url(/assets/Background.1400x1400.jpg);
+    background-image: url(./assets/Background.1400x1400.jpg);
     background-size: cover;
 }
 
